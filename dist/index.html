@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Nice View</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221112011953">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<div class="header__logo logo">
+					<a href="/"><img src="img/logo.svg" alt="Nice View" /></a>
+					<div class="logo__title">Nice View</div>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#advantages" class="menu__link">Advantages</a></li>
+							<li class="menu__item"><a href="#infrastructure" class="menu__link">Infrastructure</a></li>
+							<li class="menu__item"><a href="#planning" class="menu__link">Planning</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<div class="header__info info">
+						<div class="info__phone">
+							<a href="tel:88000000000">8 (800) 000-00-00</a>
+						</div>
+						<div class="info__work">Daily from 9:00 to 20:00</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__banner banner">
+				<div class="page__container">
+					<div class="banner__title-block">
+						<h1 class="banner__title">The unique concept of living space</h1>
+						<h3 class="banner__subtitle">The complex provides everything for you to enjoy every day</h3>
+						<button data-popup="#popup" class="banner__call btn-default">Order a call</button>
+					</div>
+				</div>
+			</section>
+			<section id="advantages" class="page__advantages advantages">
+				<div class="advantages__container">
+					<div class="advantages__title-block block-title">
+						<h2 class="advantages__title title title-b">Advantages of the «Nice View»</h2>
+						<div class="block-title__line line-b"></div>
+					</div>
+					<h3 class="advantages__subtitle subtitle text-b">Modern engineering and architectural solutions for maximum comfort in your new home</h3>
+					<div class="advantages__items">
+						<div class="advantages__row-items advantages-row">
+							<div class="advantages-row__item item-1">
+								<div class="advantages-row__content">
+									<div class="advantages-row__number">01</div>
+									<div class="advantages-row__title">Construction quality "Comfort +"</div>
+								</div>
+							</div>
+							<div class="advantages-row__item item-2">
+								<div class="advantages-row__content">
+									<div class="advantages-row__number">02</div>
+									<div class="advantages-row__title">Security in the house</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__row-items advantages-row">
+							<div class="advantages-row__item item-3">
+								<div class="advantages-row__content">
+									<div class="advantages-row__number">03</div>
+									<div class="advantages-row__title">Infrastructure</div>
+								</div>
+							</div>
+							<div class="advantages-row__item item-4">
+								<div class="advantages-row__content">
+									<div class="advantages-row__number">04</div>
+									<div class="advantages-row__title">Underground parking</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="planning" class="page__choose choose">
+				<div class="choose__container">
+					<div class="choose__title-block block-title">
+						<h2 class="choose__title title">You always choose</h2>
+						<div class="block-title__line line-w"></div>
+					</div>
+					<h3 class="choose__subtitle subtitle">Large selection of apartments and penthouses with thoughtful and functional layouts</h3>
+					<div class="choose__rooms rooms">
+						<div class="rooms__number numbers">
+							<div class="numbers__title">The number of rooms</div>
+							<div class="numbers__buttons">
+								<button class="numbers__btn">1-Room</button>
+								<button class="numbers__btn">2-Room</button>
+								<button class="numbers__btn">3-Room</button>
+								<button class="numbers__btn">4-Room</button>
+							</div>
+							<div class="numbers__title">Floor</div>
+
+							<div id="range" class="range"></div>
+
+							<button class="numbers__button btn-default">Apply</button>
+						</div>
+						<div class="rooms__separete"></div>
+						<div class="rooms__block">
+							<div class="choose__slider swiper-slider swiper">
+								<div class="choose__wrapper swiper-wrapper">
+									<div class="choose__slide swiper-slide">
+										<div class="rooms__item room">
+											<div class="room__img"><picture><source srcset="img/room.webp" type="image/webp"><img src="img/room.jpg" alt="Room-1" /></picture></div>
+											<div class="room__title">1-Room</div>
+											<div class="room__info">Total area - 41.44 m2</div>
+											<button data-popup="#popup" class="room__btn">View price</button>
+										</div>
+									</div>
+									<div class="choose__slide swiper-slide">
+										<div class="rooms__item room">
+											<div class="room__img"><picture><source srcset="img/room.webp" type="image/webp"><img src="img/room.jpg" alt="Room-2" /></picture></div>
+											<div class="room__title">2-Room</div>
+											<div class="room__info">Total area - 60.15 m2</div>
+											<button data-popup="#popup" class="room__btn">View price</button>
+										</div>
+									</div>
+									<div class="choose__slide swiper-slide">
+										<div class="rooms__item room">
+											<div class="room__img"><picture><source srcset="img/room.webp" type="image/webp"><img src="img/room.jpg" alt="Room-1" /></picture></div>
+											<div class="room__title">3-Room</div>
+											<div class="room__info">Total area - 41.44 m2</div>
+											<button data-popup="#popup" class="room__btn">View price</button>
+										</div>
+									</div>
+									<div class="choose__slide swiper-slide">
+										<div class="rooms__item room">
+											<div class="room__img"><picture><source srcset="img/room.webp" type="image/webp"><img src="img/room.jpg" alt="Room-2" /></picture></div>
+											<div class="room__title">4-Room</div>
+											<div class="room__info">Total area - 60.15 m2</div>
+											<button data-popup="#popup" class="room__btn">View price</button>
+										</div>
+									</div>
+									<div class="choose__slide swiper-slide">
+										<div class="rooms__item room">
+											<div class="room__img"><picture><source srcset="img/room.webp" type="image/webp"><img src="img/room.jpg" alt="Room-1" /></picture></div>
+											<div class="room__title">5-Room</div>
+											<div class="room__info">Total area - 41.44 m2</div>
+											<button data-popup="#popup" class="room__btn">View price</button>
+										</div>
+									</div>
+									<div class="choose__slide swiper-slide">
+										<div class="rooms__item room">
+											<div class="room__img"><picture><source srcset="img/room.webp" type="image/webp"><img src="img/room.jpg" alt="Room-2" /></picture></div>
+											<div class="room__title">6-Room</div>
+											<div class="room__info">Total area - 60.15 m2</div>
+											<button data-popup="#popup" class="room__btn">View price</button>
+										</div>
+									</div>
+								</div>
+								<div class="slide-nav">
+									<button type="button" class="slide-button-prev _icon-arrow-slide slide-arrow-left"></button>
+									<div class="slide-pagination"></div>
+									<button type="button" class="slide-button-next _icon-arrow-slide"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__order order">
+				<div class="order__container">
+					<div class="order__actian-call">
+						<div class="order__title-block block-title">
+							<h2 class="order__title title title-b">Do you have special wishes?</h2>
+						</div>
+						<h3 class="order__subtitle subtitle text-b">Order a call and we will help you find your perfect home</h3>
+						<button data-popup="#popup" class="order__call btn-default">Order a call</button>
+					</div>
+					<div data-da=".order__actian-call,991.98,2" class="order__photo photo">
+						<picture><source srcset="img/order-1.webp" type="image/webp"><img class="photo__image-1" src="img/order-1.jpg" alt="Order 1" /></picture>
+						<picture><source srcset="img/order-2.webp" type="image/webp"><img class="photo__image-2" src="img/order-2.jpg" alt="Order 2" /></picture>
+					</div>
+				</div>
+			</section>
+			<section id="infrastructure" class="page__structure structure">
+				<div class="structure__container">
+					<div class="structure__title-block block-title">
+						<h2 class="structure__title title title-w">Infrastructure «Nice View»</h2>
+						<div class="block-title__line line-w"></div>
+					</div>
+					<h3 class="structure__subtitle subtitle text-w">
+						Nice View infrastructure is thought out to the smallest detail and has everything you need for a comfortable stay
+					</h3>
+					<div class="structure__rows">
+						<div class="structure__row structure-one">
+							<div class="structure-one__photo"><picture><source srcset="img/structure-1.webp" type="image/webp"><img src="img/structure-1.jpg" alt="Structure-1" /></picture></div>
+							<div class="structure-one__info info info-border">
+								<ul class="info__lists">
+									<li class="info__item _icon-angle-right">Kindergarten and school</li>
+									<li class="info__item _icon-angle-right">Cafes, confectioneries and coffee shops</li>
+									<li class="info__item _icon-angle-right">Supermarket and round-the-clock pharmacy</li>
+									<li class="info__item _icon-angle-right">Children's playgrounds and sports grounds</li>
+								</ul>
+							</div>
+						</div>
+						<div class="structure__row structure-two">
+							<div class="structure-two__info info info-border">
+								<ul class="info__lists">
+									<li class="info__item _icon-angle-right">Stylobate underground parking</li>
+									<li class="info__item _icon-angle-right">Round the clock video surveillance</li>
+									<li class="info__item _icon-angle-right">Green walking paths and recreation areas</li>
+									<li class="info__item _icon-angle-right">Equipped place for walking with pets</li>
+								</ul>
+							</div>
+							<div class="structure-two__photo"><picture><source srcset="img/structure-2.webp" type="image/webp"><img src="img/structure-2.jpg" alt="Structure-2" /></picture></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__gallery gallery">
+				<div class="gallery__container">
+					<div class="gallery__title-block block-title">
+						<h2 class="gallery__title title title-b">Gallery of the complex</h2>
+						<div class="block-title__line line-b"></div>
+					</div>
+					<div class="gallery__block">
+						<div class="main-gallery swiper-gallery swiper">
+							<div class="slide-nav">
+								<button type="button" class="thumb-button-prev _icon-arrow-slide slide-arrow-up"></button>
+								<div class="thumb-pagination"></div>
+								<button type="button" class="thumb-button-next _icon-arrow-slide slide-arrow-down"></button>
+							</div>
+							<div class="main-gallery__wrapper swiper-wrapper">
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/main/slide-1.webp" type="image/webp"><img src="img/gallery/main/slide-1.jpg" alt="Slide-1" /></picture>
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/main/slide-2.webp" type="image/webp"><img src="img/gallery/main/slide-2.jpg" alt="Slide-2" /></picture>
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/main/slide-3.webp" type="image/webp"><img src="img/gallery/main/slide-3.jpg" alt="slide-3" /></picture>
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/main/slide-4.webp" type="image/webp"><img src="img/gallery/main/slide-4.jpg" alt="Slide-4" /></picture>
+								</div>
+							</div>
+						</div>
+						<div class="thumbs-gallery swiper swiper-thumbs">
+							<div class="thumbs-gallery__wrapper swiper-wrapper">
+								<div class="thumbs-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/thumb/thumb-1.webp" type="image/webp"><img src="img/gallery/thumb/thumb-1.jpg" alt="Thumb 1" /></picture>
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/thumb/thumb-2.webp" type="image/webp"><img src="img/gallery/thumb/thumb-2.jpg" alt="Thumb 2" /></picture>
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/thumb/thumb-3.webp" type="image/webp"><img src="img/gallery/thumb/thumb-3.jpg" alt="Thumb 3" /></picture>
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<picture><source srcset="img/gallery/thumb/thumb-4.webp" type="image/webp"><img src="img/gallery/thumb/thumb-4.jpg" alt="Thumb 4" /></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__signup signup">
+				<div class="signup__container">
+					<div class="signup__bg">
+						<div class="signup__block">
+							<h3 class="signup__title">Sign up for a consultation</h3>
+							<div class="signup__text">Leave your contact details - our experts will advise you on all matters</div>
+							<form action="" class="signup__form">
+								<div class="signup__line-first">
+									<input class="signup__line-one" type="text" name="name" required placeholder="Name" />
+									<input class="signup__line-one" type="tel" name="phone" required placeholder="Phone" />
+								</div>
+								<div class="signup__line-second">
+									<input type="email" name="email" required placeholder="E-mail" />
+								</div>
+								<button type="submit" class="signup__btn btn-default">Send</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contacts contacts">
+				<div class="contacts__maps-frame">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6043.411186613241!2d30.549729745387157!3d50.44219214140637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e7bc461c15577f9!2zNTDCsDI2JzMwLjkiTiAzMMKwMzInNTYuOSJF!5e0!3m2!1suk!2sua!4v1668198340918!5m2!1suk!2sua" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+
+				<div class="contacts__maps maps">
+					<div class="maps__contact">
+						<div class="maps__contact-block">
+							<h3 class="maps__title">Contacts</h3>
+							<hr />
+							<div class="maps__flex-wrapper">
+								<div class="maps__address-row address-row">
+									<div class="maps__address _icon-map-marker">Address of the sales office: 24 Illinska St., Kyiv</div>
+									<div class="maps__address _icon-build">Place of construction: str. Velika Vasylkivska, 25</div>
+								</div>
+								<div class="maps__address-row address-row">
+									<div class="address-row__schedule _icon-time">
+										<div>
+											<p>Work schedule:</p>
+											<p>Mon-Sat: 10:00 - 17:00.</p>
+											<p>Sun: Day off</p>
+										</div>
+									</div>
+									<div class="address-row__phone _icon-phone">
+										<div>
+											<p>Phone:</p>
+											<p><a href="tel:+380443440000">+380443440000;</a></p>
+											<p><a href="tel:+380967890000">+380967890000</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="contacts__maps maps">
+                            <div class="maps__mark map-mark">
+                                <div class="map-mark__level-one">
+                                    <div class="map-mark__level-two">
+                                        <div class="map-mark__level-three">
+                                            <div class="map-mark__level-four"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="map-mark__detail detail">
+                                    <div class="detail__content">
+                                        <picture><source srcset="img/building.webp" type="image/webp"><img src="img/building.jpg" alt="Building" /></picture>
+                                        <p>Place of construction: str. Velika Vasylkivska, 25</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="maps__contact">
+                                <div class="maps__contact-block">
+                                    <h3 class="maps__title">Contacts</h3>
+                                    <hr />
+                                    <div class="maps__address _icon-map-marker">Address of the sales office: 24 Illinska St., Kyiv</div>
+                                    <div class="maps__address _icon-build">Place of construction: str. Velika Vasylkivska, 25</div>
+                                    <div class="maps__address-row address-row">
+                                        <div class="address-row__schedule _icon-time">
+                                            <div>
+                                                <p>Work schedule:</p>
+                                                <p>Mon-Sat: 10:00 - 17:00.</p>
+                                                <p>Sun: Day off</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-row__phone _icon-phone">
+                                            <div>
+                                                <p>Phone:</p>
+                                                <p><a href="tel:+380443440000">+380443440000;</a></p>
+                                                <p><a href="tel:+380967890000">+380967890000</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row-one">
+					<div class="footer__logo">
+						<a href="/"><img src="img/logo.svg" alt="Nice View" /></a>
+						<div class="logo__title">Nice View</div>
+					</div>
+					<div class="footer__nav nav">
+						<nav class="nav__menu">
+							<ul class="nav__items">
+								<li class="nav__item"><a href="#advantages">Advantages</a></li>
+								<li class="nav__item"><a href="#infrastructure">Infrastructure</a></li>
+								<li class="nav__item"><a href="#planning">Planning</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<hr />
+				<div class="footer__row-two">
+					<div class="footer__copywrite">© 2022 All rights reserved</div>
+					<div class="footer__social">
+						<a href="#" class="_icon-instagram"></a>
+						<a href="#" class="_icon-facebook"></a>
+						<a href="#" class="_icon-telegram"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">+</button>
+				<h3 class="popup__title">Sign up for a consultation</h3>
+				<div class="popup__text">Leave your contact details - our experts will advise you on all matters</div>
+				<form action="#popup_2" class="popup__form">
+					<input class="popup__name" type="text" placeholder="Name" required />
+					<input class="popup__phone" type="tel" placeholder="Phone" required />
+					<input class="popup__email" type="tel" placeholder="E-mail" required />
+					<button type="submit" class="popup__send-btn">Send</button>
+					<input type="text" hidden data-popup="#popup_2" />
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup_2" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">+</button>
+				<h3 class="popup__title">Thank you!</h3>
+				<div class="popup__text">Our managers will contact you soon!</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221112011953"></script>
+
+</body>
+
+</html>
